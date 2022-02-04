@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        * {
+            background-color: rgb(146, 158, 154); 
+        }
+        #all {
+            padding: 3px;
+            margin-left: 5px;
+        }
+        /* #ii {
+            color: rgb(12, 600, 9);
+        } */
+        #Recept {
+            background-color: rgb(4, 19, 18);
+            /* position: relative; */
+            float: right;
+            margin-right: 850px;
+            margin-top: 1px;
+            margin-left: 5px;
+        }
+        #headline {
+            margin-left: 35%;
+        }
+        .recipes-headlines {
+            color:rgb(23, 63, 60);
+            
+        }
+        .photos {
+            width: 15%;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            border: 2px solid rgb(34, 43, 40);
+            border-radius: 7px;
+        }
+        #rec{
+            margin-left: 15px;
+            /* margin-top: 10px; */
+        }
+        .description {
+            margin-left: 23px;
+            margin-top: 10px;
+        }
+        /* .table-border {
+            border: 1px solid black;
+            padding: 3px;
+        }
+        th, td{
+            border-bottom: 2px solid black;
+        } */
+        td, th{
+            border: 2px solid black;   
+        }
+        .stps, p.strong {
+            background-color: rgb(156, 148, 119);
+            margin-left: 10px;
+        }
+        .second {
+            margin-left: 1px;
+        }
+        </style>    
+    </head>
+    <body>
+       <div>
+        <h1 id="headline">Dana's Recipe Book</h1>
+        <div id="all">
+            <h2>Contents:</h2>
+            
+            <ol>
+                <li><h3><a class="recipes-headlines" href="#aidana">Recipe #1</a></h3></li>
+                <li><h3><a class="recipes-headlines" id="ii" href="#aidan">Recipe #2</a></h3></li>
+            </ol>
+            
+            <h2 id="recipe1">Recipe #1</h2>
+            <!-- <div class="steps"> -->
+                <p class="description"><strong>"Фруктовый салат"</strong></p>
+                <!-- <ul>
+                    <li>Time: 15min</li>
+                    <li>Serves: 1</li>
+                </ul> -->
+            <!-- </div> -->
+            <img class="photos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ensalada_de_fruta_casera.jpg/403px-Ensalada_de_fruta_casera.jpg" alt="Салат - Фруктовый салат">
+            
+            <div id = "rec">
+            <table class="table-border">
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>2 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>3 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>Orange</td>
+                        <td>2 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>Kiwi</td>
+                        <td>2 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>Strawberry</td>
+                        <td>15 pieces</td>
+                    </tr>
+                    <tr>
+                        <td>Yogurt</td>
+                        <td>3 pieces</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <p>В традиционный рецепт входят яблоко, груша, апельсин, десертный банан. Иногда добавляется виноград без косточек, ананас и мандарин. Фруктовый салат посыпают обычным или коричневым сахаром или добавляют мёд, шоколад. Для придания вкуса также используется изюм, молотый миндаль или лесной орех. Во фруктовые салаты иногда также добавляют лимонный сок для придания салату свежести и сохранения внешнего вида фруктов</p>
+            <p class="stps"><strong>Step 1:</strong> очистить киви, бананы, мандарин.
+    </p>
+            <p class="stps"><strong>Step 2: </strong> порезать все ломтиками, добавить все фрукты.</p>
+            <p class="stps"><strong>Step 3: </strong> йогурт для фруктового салата можно выбрать по вкусу.</p>
+            <p class="stps"><strong>Step 4: </strong> заправить салат йогуртом. салат фруктовый с йогуртом готов. Приятного аппетита!</p>
+            
+            <h2 id="aidan">Recipe #2</h2>
+            <p class="description second"><strong>"Закусочный салат <em>ОЛИВЬЕ</em>"</strong></p>
+            <img class="photos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Russian_Salad.jpg/1280px-Russian_Salad.jpg" alt="Закусочный салат - оливье">
+            <div id = "rec">
+                <table class="table-border">
+                    <thead>
+                        <tr>
+                            <th>Ingredients</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Курица</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Картофель</td>
+                            <td>4 шт</td>
+                        </tr>
+                        <tr>
+                            <td>Майонез</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Огурцы</td>
+                            <td>2 шт</td>
+                        </tr>
+                        <tr>
+                            <td>Яйца</td>
+                            <td>4 шт</td>
+                        </tr>
+                        <tr>
+                            <td>Морковь</td>
+                            <td>2 шт</td>
+                        </tr>
+                        <tr>
+                            <td>Горошек</td>
+                            <td>1 бт</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <p>Оливье́ — популярный в России и других постсоветских странах салат, обычно подаваемый на новогодние праздники. <br>
+
+                Блюдо было придумано в московском ресторане «Эрмитаж». Массовую популярность этот салат (вместе с салатами «Сельдь под шубой» и «Мимоза») начал обретать в 1960—1970-х годах, когда относительно доступными становились мясо и майонез промышленного изготовления</p>
+                <p class="stps"><strong>Step 1:</strong> Сварить морковь и картофель.</p>
+                <p class="stps"><strong>Step 1:</strong> Сварить яйца вкрутую.</p>
+                <p class="stps"><strong>Step 1:</strong> Нарезать равными по размеру мелкими кубиками яйца, картофель, колбасу, морковку.</p>
+                <p class="stps"><strong>Step 1:</strong> Огурцы нарезать и немного отжать, чтобы не было много жидкости в салате.</p>
+                <p class="stps"><strong>Step 1:</strong> В нарезанные ингредиенты всыпать горошек (слив воду из него), нарезать зелень, смешать с майонезом. Посолить и поперчить. Убрать в холодильник на 1 ч.</p>
+            
+        <p><em>Source: <a href="https://www.eatingwell.com/recipes/">Some recipes websites</a></em></p>
+        </div>
+        </div>
+    </body>
+</html>
